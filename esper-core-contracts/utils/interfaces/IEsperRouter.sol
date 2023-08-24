@@ -53,4 +53,6 @@ interface IEsperRouter is IUniswapV2Router01 {
   ) external;
 
   function getPair(address token1, address token2) external view returns (address);
+
+  function getAmountsOut(uint256 amountIn, address[] calldata path) external view returns (uint256[] memory amounts);
 }

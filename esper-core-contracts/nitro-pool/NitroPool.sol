@@ -14,7 +14,6 @@ import "../interfaces/INFTPool.sol";
 import "../interfaces/INitroPoolFactory.sol";
 import "../interfaces/tokens/IEsperToken.sol";
 import "../interfaces/tokens/IXEsperToken.sol";
-import "../interfaces/INitroCustomReq.sol";
 
 contract NitroPool is ReentrancyGuard, Ownable, INFTHandler {
     using EnumerableSet for EnumerableSet.UintSet;
